@@ -7,17 +7,6 @@ home_page = st.Page(
     icon='🏡' ,
     default=True
 )
-chatbot_page = st.Page(
-    page="pages/chatbot.py",
-    title='Chatbot page' ,
-    icon='💌' 
-)
-menu_page = st.Page( 
-    page="pages/menu.py", 
-    title='menu page' ,
-    icon='📝' 
-)
-
 signin_page = st.Page( 
     page="pages/signin.py", 
     title='signin page' , 
@@ -37,8 +26,6 @@ contact_us = st.Page(
 all_pages =st.navigation(
     pages=[
         home_page,
-        menu_page,
-        chatbot_page,
         signin_page,
         signup_page,
         contact_us
