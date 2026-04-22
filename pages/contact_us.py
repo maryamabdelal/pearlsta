@@ -6,6 +6,7 @@ st.divider()
 left, right = st.columns([1, 1], border=True)
 with left:
     st.header("Get In Touch Through Whatsapp")
+    st.write('Have questions or need more information? We are here to help! Reach out to us through Whatsapp')
     if left.button("Chat on Whatsapp", icon="📝", use_container_width=True, width="stretch"):
         left.markdown("You clicked the whatsapp button.")
 
