@@ -3,8 +3,9 @@ import streamlit as st
 
 home_page = st.Page(
     page="pages/home.py",
-    title='Home page' ,
     icon='🏡' ,
+    title='Home page' ,
+  
     default=True
 )
 signin_page = st.Page( 
